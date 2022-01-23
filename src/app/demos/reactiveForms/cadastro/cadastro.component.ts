@@ -27,6 +27,7 @@ export class CadastroComponent implements OnInit, AfterViewInit {
 
   constructor(private fb: FormBuilder) {
     
+    
     this.validationMessages = {
       nome: {
         required: 'O Nome é requerido',
